@@ -108,7 +108,14 @@
             align-items: center;
             .icon{
                 &:before{
-                    content: "tetsdsx";
+                    content: "";
+                    width: 0.5rem;
+                    height: 8.3rem;
+                    background: url("../img/points.svg") no-repeat center;
+                    position: absolute;
+                    top: -10.4rem;
+                    left: 50%;
+                    margin-left: -2.5px;
                 
                 }
             }
@@ -133,6 +140,7 @@
                     li{
                        &:not(:last-child){
                         margin-bottom: 2.6rem; 
+                        }
                     }
                 }
             }
