@@ -258,6 +258,7 @@
 .s-depoimentos{
     padding-top: 13.4rem;
     .top{
+        @include flex(row,flex-end, space-between);
         margin-bottom: 4rem;
         h2{
             span{
@@ -266,5 +267,24 @@
                 margin-bottom: 1.4rem;
             }
         }
+        .swiper-pagination{
+           position: relative;
+           .swiper-pagination-bullet{
+                background: $brand-yellow;
+                opacity: 0.3;
+                border-radius: 1.2rem;
+                transition: all .3s;
+                &:not(:first-child){
+                    margin-left: 0.4rem;
+                }
+                &-active{
+                    opacity: 1;
+                    width: 17.23px;
+                }
+           }
+        }
+    }
+    .slide-depoimentos{
+        overflow: hidden;
     }
 }
