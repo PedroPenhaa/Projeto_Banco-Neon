@@ -269,6 +269,8 @@
         }
         .swiper-pagination{
            position: relative;
+           display: flex;
+           width: 5rem; 
            .swiper-pagination-bullet{
                 background: $brand-yellow;
                 opacity: 0.3;
