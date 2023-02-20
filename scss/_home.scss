@@ -443,6 +443,20 @@
         .container{
             flex-direction: column-reverse; 
         }
+        .left-area{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 61rem;
+            margin: 0 auto;
+            .ilustra-mockup{
+                max-width: 25.5rem;
+                margin-bottom: 0;
+            }
+            .text{
+                max-width: 27rem;
+            }
+        }
         .right-area{
             max-width: 100%;
             margin-bottom: 9.8rem;
