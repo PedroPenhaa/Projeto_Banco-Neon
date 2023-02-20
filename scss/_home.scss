@@ -438,6 +438,39 @@
             }
         }
     }
+
+    @include responsive(991px){
+        .container{
+            flex-direction: column-reverse; 
+        }
+        .right-area{
+            max-width: 100%;
+            margin-bottom: 9.8rem;
+            .main-text{
+                margin-bottom: 5.7rem;
+                h2{
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 5.3rem;
+                    font-size: 3.6rem;
+                }
+                .btn{
+                    text-align: center;
+                    display: block;
+                    &:after{
+                        display: none;
+                    }
+                }
+            }
+            .box-card{
+                max-width: 94.7%;
+                .image{
+                    margin-right: -4rem;
+                }
+            }
+        }
+
+    }
 }
 
 
