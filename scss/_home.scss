@@ -408,7 +408,47 @@
 
   
     }
+
+    @include responsive(1200px){
+        .left-area{
+            .ilustra-mockup{
+                .circle{
+                    display: none;
+                }
+            }
+        }
+        .right-area{
+            max-width: 73rem;
+            .main-text{
+                ul{
+                    li{
+                        .info{
+                            .txt{
+                                margin-left: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .box-card{
+                padding-left: 3.5rem;
+                .image{
+                    margin-right: rem;
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
 
 .s-depoimentos{
     padding-top: 13.4rem;
