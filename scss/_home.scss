@@ -529,8 +529,18 @@
                 }
                 ul{
                     li{
+                        padding: 2.8rem 0;
                         .info{
                             align-items: flex-start;
+                            .txt{
+                                max-width: 71%;
+                                h3{
+                                    font-size: 2rem;
+                                }
+                                p{
+                                    font-size: 1.4rem;
+                                }
+                            }
                         }
                     }
                 }
