@@ -519,6 +519,9 @@
             }
         }
     }
+    @include responsive(480px){
+        padding-top: 85rem;
+    }
 }
 
 
