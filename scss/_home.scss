@@ -520,12 +520,19 @@
         }
     }
     @include responsive(480px){
-        padding-top: 85rem;
+        padding-top: 8.5rem;
         .right-area{
             .main-text{
                 h2{
                     font-size: 2.8rem;
                     margin-bottom: 3.7rem;
+                }
+                ul{
+                    li{
+                        .info{
+                            align-items: flex-start;
+                        }
+                    }
                 }
             }
         }
