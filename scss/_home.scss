@@ -178,6 +178,10 @@
            }
         }
     }
+    @include responsive(675px){
+        margin-bottom: 2rem;
+    }
+
     @include responsive(480px){
         height: 73.9rem;
         padding-top: 12.4rem;
@@ -483,8 +487,8 @@
             }
         }
     }
-    @include responsive(650px){
-        padding-top: 16.9rem;
+    @include responsive(675px){
+        padding-top: 15.9rem;
         .right-area{
             .box-card{
                 flex-direction: column;
