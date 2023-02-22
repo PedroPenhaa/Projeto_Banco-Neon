@@ -482,7 +482,6 @@
                 }
             }
         }
-
     }
     @include responsive(650px){
         padding-top: 16.9rem;
@@ -543,6 +542,29 @@
                             }
                         }
                     }
+                }
+            }
+            .box-card{
+                h2{
+                    font-weight: 600;
+                    font-size: 2.8rem;
+                }
+                h3{
+                    font-size: 2rem;
+                }
+                .text{
+                    p{
+                        max-width: 25.3rem;
+                        margin-bottom: 3.4rem;
+                    }
+                    .btns{
+                        .btn-primary{
+                            padding: 0 3rem;
+                        }
+                    }
+                }
+                .image{
+                    max-width: 27.7rem;
                 }
             }
         }
