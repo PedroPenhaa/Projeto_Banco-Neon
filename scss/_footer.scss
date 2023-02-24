@@ -167,4 +167,30 @@ footer{
             }
         }
     }
+    @include responsive(480px){
+        .main{
+            nav{
+                .item{
+                    width: 50%;
+                    margin-bottom: 5.3rem;
+                }
+            }
+            .btns{
+                bottom: 0;
+                position: relative;
+                max-width: 100%;
+                button{
+                    padding-left: 0;
+                    justify-content: center;
+                    .info{
+                        strong,
+                        span{
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
