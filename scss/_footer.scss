@@ -112,4 +112,11 @@ footer{
             opacity: 0.8;
         }
     }
+    @include responsive(1050px){
+        .main{
+            nav{
+                max-width: 76rem;
+            }
+        }
+    }
 }
