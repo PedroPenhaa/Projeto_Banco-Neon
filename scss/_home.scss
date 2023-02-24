@@ -782,5 +782,26 @@
         }
 
      }
-
+     @include responsive(900px){
+        padding-top: 8.6rem;
+        padding-bottom: 8.1rem;
+        .text{
+            max-width: 100%;
+        }
+        .image{
+            max-width: 58.2rem;
+            height: 63.3rem;
+            img{
+                &.circle{
+                    width: 100%;
+                }
+                &.mockup-01{
+                    z-index: 2;
+                }
+                &.mockup-02{
+                    z-index: 2;
+                }
+            }
+        }
+     }
 }
